@@ -61,12 +61,9 @@ async function onSubmit(e) {
     }
 }
 
-
-
 async function markAttendance(e){
     e.preventDefault();  
-    try{
-        
+    try{  
         const list=document.getElementsByTagName('li');
 
         // console.log(list.length);
